@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>AirDrop Discoverability</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.sharingd</string>
+		<key>PayloadUUID</key>
+		<string>97C6192B-7695-4F9E-B90C-1B78CC18F551</string>
+		<key>PayloadDescription</key>
+		<string>Configures the discoverability preference of AirDrop.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.sharingd</string>
+				<key>PayloadDisplayName</key>
+				<string>AirDrop (v 1)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.sharingd</string>
+				<key>PayloadUUID</key>
+				<string>655D6B47-33AE-4B94-84FE-D62E57324B53</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>DiscoverableMode</key>
+				<string>Contacts Only</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
