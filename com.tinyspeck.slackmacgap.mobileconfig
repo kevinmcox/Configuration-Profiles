@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Slack</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Slack</string>
+		<key>PayloadUUID</key>
+		<string>E2A7CE0B-8E4A-455F-A2A2-348DA67B54A5</string>	
+		<key>PayloadDescription</key>
+		<string>Disables Slack auto-updates and configures the default Workspace.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>	
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.tinyspeck.slackmacgap</string>
+				<key>PayloadDisplayName</key>
+				<string>Slack (v 2)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Slack</string>
+				<key>PayloadUUID</key>
+				<string>93888269-D758-4FE2-A6FB-2735DA589BCE</string>
+				<key>PayloadVersion</key>
+				<integer>2</integer>
+				<key>SlackDefaultSignInWorkspace</key>
+				<string>XXXXXXXXX</string>
+				<key>SlackNoAutoUpdates</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</plist>
