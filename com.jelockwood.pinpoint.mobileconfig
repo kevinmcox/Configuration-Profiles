@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Pinpoint</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Pinpoint</string>
+		<key>PayloadUUID</key>
+		<string>3620B479-9062-4B82-B169-84D55A266117</string>	
+		<key>PayloadDescription</key>
+		<string>Configures Pinpoint geolocation settings.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>	
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.jelockwood.pinpoint</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Pinpoint</string>
+				<key>PayloadDisplayName</key>
+				<string>Pinpoint (v 1)</string>
+				<key>PayloadUUID</key>
+				<string>73A6FEE1-8204-4899-B683-9CF6F3E1AB01</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>USE_ALTITUDE</key>
+				<false/>
+				<key>USE_GEOCODE</key>
+				<true/>
+				<key>DEBUG</key>
+				<false/>
+				<key>OPTIMISE</key>
+				<true/>
+				<key>YOUR_API_KEY</key>
+				<string>h6hyGtT3KL89--EXAMPLE--ijSyaIXSY71MY7EL</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
