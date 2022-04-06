@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Safari</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Safari</string>
+		<key>PayloadUUID</key>
+		<string>C43749DC-F0FC-4DA6-825E-8F1173BDC7FD</string>
+		<key>PayloadDescription</key>
+		<string>Configures Safari</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.Safari</string>
+				<key>PayloadDisplayName</key>
+				<string>Safari (v 1)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Safari</string>
+				<key>PayloadUUID</key>
+				<string>EAE98569-B1EF-4361-A04F-037D47CB9090</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>AskBeforeSubmittingInsecureForms</key>
+				<true/>
+				<key>AutoOpenSafeDownloads</key>
+				<false/>
+				<key>DefaultBrowserPromptingState2</key>
+				<integer>1</integer>
+				<key>DefaultBrowserPromptingState3</key>
+				<integer>2</integer>
+				<key>SendDoNotTrackHTTPHeader</key>
+				<true/>
+				<key>WarnAboutFraudulentWebsites</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</plist>
