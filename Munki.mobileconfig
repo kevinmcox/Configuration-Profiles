@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Managed Software Center</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Munki</string>
+		<key>PayloadUUID</key>
+		<string>272700F4-25A3-4CF6-8C31-6C38EBB05CA7</string>
+		<key>PayloadDescription</key>
+		<string>Managed Software Center settings.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>ManagedInstalls</string>
+				<key>PayloadDisplayName</key>
+				<string>Managed Software Center (v3)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Munki</string>
+				<key>PayloadUUID</key>
+				<string>29B3B683-49EB-4999-9AAA-B9BD2F265953</string>
+				<key>PayloadVersion</key>
+				<integer>3</integer>
+				<key>AdditionalHttpHeaders</key>
+				<array>
+					<string>Authorization: Basic VVNFUk5BTUU6UEFTU1dPUkQ=</string>
+				</array>
+				<key>AppleSoftwareUpdatesOnly</key>
+				<false/>
+				<key>AggressiveUpdateNotificationDays</key>
+				<integer>7</integer>
+				<key>HelpURL</key>
+				<string>https://knowledgebase.example.com/how-to-use-managed-software-center/</string>
+				<key>InstallAppleSoftwareUpdates</key>
+				<true/>
+				<key>SoftwareRepoURL</key>
+				<string>https://munki.example.com/repo</string>
+				<key>SuppressAutoInstall</key>
+				<false/>
+				<key>SuppressLoginwindowInstall</key>
+				<false/>
+				<key>SuppressUserNotification</key>
+				<false/>
+				<key>UnattendedAppleUpdates</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</plist>
