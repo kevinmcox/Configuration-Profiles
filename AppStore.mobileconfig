@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>App Store</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.AppStore</string>
+		<key>PayloadUUID</key>
+		<string>D43C8A79-934E-4E2A-8DE5-F3371DAD5DEC</string>
+		<key>PayloadDescription</key>
+		<string>Prevents App Adoption messages on new computers.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.appstore</string>
+				<key>PayloadDisplayName</key>
+				<string>App Store (v2)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.AppStore</string>
+				<key>PayloadUUID</key>
+				<string>541F5810-2448-4F4F-A0A3-7717DEEC4074</string>
+				<key>PayloadVersion</key>
+				<integer>2</integer>
+				<key>restrict-store-disable-app-adoption</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</plist>
