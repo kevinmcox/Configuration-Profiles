@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Firewall</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Firewall</string>
+		<key>PayloadUUID</key>
+		<string>5A0F1CED-C83C-4777-932A-8FB1145C8004</string>
+		<key>PayloadDescription</key>
+		<string>Managed Firewall settings.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.security.firewall</string>
+				<key>PayloadDisplayName</key>
+				<string>Firewall (v 2)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Firewall</string>
+				<key>PayloadUUID</key>
+				<string>8013AB14-1533-4AD7-A065-3EFE676778FC</string>
+				<key>PayloadVersion</key>
+				<integer>2</integer>
+				<key>EnableFirewall</key>
+				<true/>
+				<key>AllowSigned</key>
+				<true/>
+				<key>AllowSignedApp</key>
+				<true/>
+				<key>BlockAllIncoming</key>
+				<false/>
+				<key>EnableStealthMode</key>
+				<false/>
+				<key>Applications</key>
+				<array>
+					<dict>
+						<key>BundleID</key>
+						<string>com.example.araxi.Workshop</string>
+						<key>Allowed</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>BundleID</key>
+						<string>com.example.Preps8</string>
+						<key>Allowed</key>
+						<true/>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</plist>
