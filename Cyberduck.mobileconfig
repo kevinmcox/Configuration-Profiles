@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Cyberduck</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Cyberduck</string>
+		<key>PayloadUUID</key>
+		<string>3EE84AE3-5809-4C86-B166-BB8CE5316498</string>
+		<key>PayloadDescription</key>
+		<string>Managed Preferences for Cyberduck.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>ch.sudo.cyberduck</string>
+				<key>PayloadDisplayName</key>
+				<string>Cyberduck (v 2)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Cyberduck</string>
+				<key>PayloadUUID</key>
+				<string>FE811426-8DBD-477C-A66C-5EFC90DA2297</string>
+				<key>PayloadVersion</key>
+				<integer>2</integer>
+				<key>SUEnableAutomaticChecks</key>
+				<false/>
+				<key>SUSendProfileInfo</key>
+				<false/>
+				<key>donate.reminder.date</key>
+				<string>1565031508502</string>
+				<key>donate.reminder.interval</key>
+				<integer>999</integer>
+				<key>donate.reminder.suppress.enable</key>
+				<true/>
+				<key>update.check</key>
+				<string>false</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
