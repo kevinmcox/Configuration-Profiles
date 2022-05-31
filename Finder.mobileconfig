@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Finder</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Finder</string>
+		<key>PayloadUUID</key>
+		<string>05056C82-7370-4DBD-9EDF-076EAF106768</string>
+		<key>PayloadDescription</key>
+		<string>Managed Finder settings.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.finder</string>
+				<key>PayloadDisplayName</key>
+				<string>Finder (v3)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Finder</string>
+				<key>PayloadUUID</key>
+				<string>81F3D0C5-1542-4B06-A2E7-9D26B0A1E463</string>
+				<key>PayloadVersion</key>
+				<integer>3</integer>
+				<key>FXRemoveOldTrashItems</key>
+				<true/>
+				<key>ProhibitBurn</key>
+				<false/>
+				<key>ProhibitConnectTo</key>
+				<false/>
+				<key>ProhibitEject</key>
+				<false/>
+				<key>ProhibitGoToFolder</key>
+				<false/>
+				<key>ShowExternalHardDrivesOnDesktop</key>
+				<true/>
+				<key>ShowHardDrivesOnDesktop</key>
+				<true/>
+				<key>ShowMountedServersOnDesktop</key>
+				<true/>
+				<key>ShowRemovableMediaOnDesktop</key>
+				<true/>
+				<key>WarnOnEmptyTrash</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</plist>
