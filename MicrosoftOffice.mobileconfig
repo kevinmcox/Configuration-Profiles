@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Microsoft Office</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Microsoft.Office</string>
+		<key>PayloadUUID</key>
+		<string>D16C36EA-0612-416D-85C4-5DF278A458BE</string>
+		<key>PayloadDescription</key>
+		<string>Microsoft Office managed settings with the Volume License Serializer (not O365) in use.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.microsoft.office</string>
+				<key>PayloadDisplayName</key>
+				<string>Microsoft Office (v2)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Microsoft.Office</string>
+				<key>PayloadUUID</key>
+				<string>E61E199C-5562-4A95-9AA6-64FBB0E93625</string>
+				<key>PayloadVersion</key>
+				<integer>2</integer>
+				<key>DefaultsToLocalOpenSave</key>
+				<true/>
+				<key>HasUserSeenEnterpriseFREDialog</key>
+				<true/>
+				<key>kCUIThemePreferenceThemeKeyPath</key>
+				<integer>0</integer>
+				<key>OfficeActivationEmailAddress</key>
+				<string>Example, Inc.</string>
+				<key>OfficeAutoSignIn</key>
+				<true/>
+				<key>TermsAccepted1809</key>
+				<true/>
+				<key>VisualBasicMacroExecutionState</key>
+				<string>DisabledWithWarnings</string>
+				<key>DisableVisualBasicToBindToPopen</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</plist>
