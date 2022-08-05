@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Microsoft Remote Desktop</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Microsoft.RemoteDesktop</string>
+		<key>PayloadUUID</key>
+		<string>5913C9A0-7F96-415A-B8ED-B902503EDAC7</string>
+		<key>PayloadDescription</key>
+		<string>Disables first run dialog.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.microsoft.rdc.macos</string>
+				<key>PayloadDisplayName</key>
+				<string>Microsoft Remote Desktop (v 2)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Microsoft.RemoteDesktop</string>
+				<key>PayloadUUID</key>
+				<string>7B46AC57-468B-4216-87B0-2BB483F53F42</string>
+				<key>PayloadVersion</key>
+				<integer>2</integer>
+				<key>ClientSettings.FirstRunExperienceLaunchedVersion</key>
+				<string>1</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
