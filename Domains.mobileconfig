@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Domains</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Domains</string>
+		<key>PayloadUUID</key>
+		<string>FA4F8D1C-C387-49E1-A86C-93F5A833F909</string>
+		<key>PayloadDescription</key>
+		<string>Highlights non-company domains red in Mail.app</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.domains</string>
+				<key>PayloadDisplayName</key>
+				<string>Domains (v 2)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Domains</string>
+				<key>PayloadUUID</key>
+				<string>9AAB1F76-342B-4525-A0B9-ED91DB6B776A</string>
+				<key>PayloadVersion</key>
+				<integer>2</integer>
+				<key>EmailDomains</key>
+				<array>
+					<string>example.com</string>
+					<string>example.net</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</plist>
