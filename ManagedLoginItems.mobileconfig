@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Managed Login Items</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.ServiceManagement</string>
+		<key>PayloadUUID</key>
+		<string>FFE6F97C-7D20-49BF-B39F-D1200BF78075</string>
+		<key>PayloadDescription</key>
+		<string>Managed Login Items</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.servicemanagement</string>
+				<key>PayloadDisplayName</key>
+				<string>Managed Login Items (v 1)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.ServiceManagement</string>
+				<key>PayloadUUID</key>
+				<string>301E237D-1144-4910-B2DA-2A0E9FA8FA82</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>Rules</key>
+				<array>
+					<dict>
+						<key>RuleType</key>
+						<string>TeamIdentifier</string>
+						<key>RuleValue</key>
+						<string>9GQZ7KUFR6</string>
+						<key>Comment</key>
+						<string>Clever DevOps Co. (MacAdmins)</string>
+					</dict>
+					<dict>
+						<key>RuleType</key>
+						<string>TeamIdentifier</string>
+						<key>RuleValue</key>
+						<string>EQHXZ8M8AV</string>
+						<key>Comment</key>
+						<string>Google LLC</string>
+					</dict>
+					<dict>
+						<key>RuleType</key>
+						<string>TeamIdentifier</string>
+						<key>RuleValue</key>
+						<string>UBF8T346G9</string>
+						<key>Comment</key>
+						<string>Microsoft Corporation</string>
+					</dict>
+					<dict>
+						<key>RuleType</key>
+						<string>TeamIdentifier</string>
+						<key>RuleValue</key>
+						<string>BJ4HAAB9B3</string>
+						<key>Comment</key>
+						<string>Zoom Video Communications, Inc.</string>
+					</dict>
+					<dict>
+						<key>RuleType</key>
+						<string>Label</string>
+						<key>RuleValue</key>
+						<string>com.grahamgilbert.crypt</string>
+						<key>Comment</key>
+						<string>Crypt2</string>
+					</dict>
+					<dict>
+						<key>RuleType</key>
+						<string>LabelPrefix</string>
+						<key>RuleValue</key>
+						<string>com.googlecode.munki.</string>
+						<key>Comment</key>
+						<string>Managed Software Center</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</plist>
