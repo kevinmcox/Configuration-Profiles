@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Nudge</string>
+		<key>PayloadIdentifier</key>
+		<string>com.example.profile.Nudge</string>
+		<key>PayloadUUID</key>
+		<string>800B7E83-13CE-4F0E-9A32-0E1DD712029D</string>
+		<key>PayloadDescription</key>
+		<string>Nudge configuration.</string>
+		<key>PayloadOrganization</key>
+		<string>Example, Inc.</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.github.macadmins.Nudge</string>
+				<key>PayloadDisplayName</key>
+				<string>Nudge (v1)</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.profile.Nudge</string>
+				<key>PayloadUUID</key>
+				<string>E8DAEAB6-E898-4120-ACA0-AC237D144FA8</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>optionalFeatures</key>
+				<dict>
+					<key>acceptableApplicationBundleIDs</key>
+					<array>
+						<string>us.zoom.xos</string>
+					</array>
+					<key>enforceMinorUpdates</key>
+					<true/>
+				</dict>
+				<key>osVersionRequirements</key>
+				<array>
+					<dict>
+						<key>aboutUpdateURL</key>
+						<string>https://support.apple.com/en-us/HT213532</string>
+						<key>requiredInstallationDate</key>
+						<date>2022-12-22T19:00:00Z</date>
+						<key>requiredMinimumOSVersion</key>
+						<string>13.1</string>
+						<key>targetedOSVersionsRule</key>
+						<string>13</string>
+					</dict>
+					<dict>
+						<key>aboutUpdateURL</key>
+						<string>https://support.apple.com/en-us/HT213533</string>
+						<key>requiredInstallationDate</key>
+						<date>2022-12-22T19:00:00Z</date>
+						<key>requiredMinimumOSVersion</key>
+						<string>12.6.2</string>
+						<key>targetedOSVersionsRule</key>
+						<string>12</string>
+					</dict>
+					<dict>
+						<key>aboutUpdateURL</key>
+						<string>https://support.apple.com/en-us/HT213504</string>
+						<key>requiredInstallationDate</key>
+						<date>2022-12-01T19:00:00Z</date>
+						<key>requiredMinimumOSVersion</key>
+						<string>13.1</string>
+						<key>majorUpgradeAppPath</key>
+						<string>/Applications/Install macOS Ventura.app</string>
+						<key>targetedOSVersionsRule</key>
+						<string>11</string>
+					</dict>
+				</array>
+				<key>userExperience</key>
+				<dict>
+					<key>allowGracePeriods</key>
+					<true/>
+					<key>noTimers</key>
+					<false/>
+					<key>randomDelay</key>
+					<true/>
+				</dict>
+				<key>userInterface</key>
+				<dict>
+					<key>iconDarkPath</key>
+					<string>/Library/CompanyName/logoDark.png</string>
+					<key>iconLightPath</key>
+					<string>/Library/CompanyName/logoLight.png</string>
+					<key>screenShotDarkPath</key>
+					<string>/Library/CompanyName/Nudge/screenShotDark.png</string>
+					<key>screenShotLightPath</key>
+					<string>/Library/CompanyName/Nudge/screenShotLight.png</string>
+					<key>updateElements</key>
+					<array>
+						<dict>
+							<key>_language</key>
+							<string>en</string>
+							<key>actionButtonText</key>
+							<string>Update Computer</string>
+							<key>customDeferralButtonText</key>
+							<string>Other</string>
+							<key>mainContentHeader</key>
+							<string>Your computer will restart during this update</string>
+							<key>mainContentSubHeader</key>
+							<string>Updates can take between 30 minutes to 1 hour to complete</string>
+							<key>mainContentText</key>
+							<string>Apple has released a security update for your computer and a fully up-to-date device is required to ensure that IT can accurately protect company data.
+							
+If you do not update your computer, you may lose access to some services necessary for your day-to-day tasks.
+
+To begin the update, simply click on the Update Computer button above to launch Software Update and install all available updates.
+
+To be reminded later, select a deferal option below.</string>
+							<key>mainHeader</key>
+							<string>Your computer requires a security update</string>
+							<key>subHeader</key>
+							<string>A friendly reminder from the Example, Inc. IT team</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</plist>
