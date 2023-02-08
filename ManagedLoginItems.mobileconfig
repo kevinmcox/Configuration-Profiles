@@ -26,22 +26,22 @@
 				<key>PayloadType</key>
 				<string>com.apple.servicemanagement</string>
 				<key>PayloadDisplayName</key>
-				<string>Managed Login Items (v 1)</string>
+				<string>Managed Login Items (v 2)</string>
 				<key>PayloadIdentifier</key>
 				<string>com.example.profile.ServiceManagement</string>
 				<key>PayloadUUID</key>
 				<string>301E237D-1144-4910-B2DA-2A0E9FA8FA82</string>
 				<key>PayloadVersion</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>Rules</key>
 				<array>
 					<dict>
 						<key>RuleType</key>
 						<string>TeamIdentifier</string>
 						<key>RuleValue</key>
-						<string>9GQZ7KUFR6</string>
+						<string>T4SK8ZXCXG</string>
 						<key>Comment</key>
-						<string>Clever DevOps Co. (MacAdmins)</string>
+						<string>Mac Admins Open Source</string>
 					</dict>
 					<dict>
 						<key>RuleType</key>
