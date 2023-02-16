@@ -26,13 +26,13 @@
 				<key>PayloadType</key>
 				<string>com.github.macadmins.Nudge</string>
 				<key>PayloadDisplayName</key>
-				<string>Nudge (v3)</string>
+				<string>Nudge (v4)</string>
 				<key>PayloadIdentifier</key>
 				<string>com.example.profile.Nudge</string>
 				<key>PayloadUUID</key>
 				<string>E8DAEAB6-E898-4120-ACA0-AC237D144FA8</string>
 				<key>PayloadVersion</key>
-				<integer>3</integer>
+				<integer>4</integer>
 				<key>optionalFeatures</key>
 				<dict>
 					<key>acceptableApplicationBundleIDs</key>
@@ -40,9 +40,9 @@
 						<string>us.zoom.xos</string>
 					</array>
 					<key>attemptToFetchMajorUpgrade</key>
-					<true/>
-					<key>disableSoftwareUpdateWorkflow</key>
 					<false/>
+					<key>disableSoftwareUpdateWorkflow</key>
+					<true/>
 					<key>enforceMinorUpdates</key>
 					<true/>
 				</dict>
@@ -50,37 +50,13 @@
 				<array>
 					<dict>
 						<key>aboutUpdateURL</key>
-						<string>https://support.apple.com/en-us/HT213605</string>
+						<string>https://support.apple.com/en-us/HT213633</string>
 						<key>requiredInstallationDate</key>
-						<date>2023-02-05T19:00:00Z</date>
+						<date>2023-02-20T19:00:44Z</date>
 						<key>requiredMinimumOSVersion</key>
-						<string>13.2</string>
+						<string>13.2.1</string>
 						<key>targetedOSVersionsRule</key>
-						<string>13</string>
-					</dict>
-					<dict>
-						<key>aboutUpdateURL</key>
-						<string>https://support.apple.com/en-us/HT213605</string>
-						<key>majorUpgradeAppPath</key>
-						<string>/System/Library/CoreServices/Software Update.app</string>
-						<key>requiredInstallationDate</key>
-						<date>2023-02-05T19:00:00Z</date>
-						<key>requiredMinimumOSVersion</key>
-						<string>13.2</string>
-						<key>targetedOSVersionsRule</key>
-						<string>12</string>
-					</dict>
-					<dict>
-						<key>aboutUpdateURL</key>
-						<string>https://support.apple.com/en-us/HT213605</string>
-						<key>majorUpgradeAppPath</key>
-						<string>/Applications/Install macOS Ventura.app</string>
-						<key>requiredInstallationDate</key>
-						<date>2023-02-05T19:00:00Z</date>
-						<key>requiredMinimumOSVersion</key>
-						<string>13.2</string>
-						<key>targetedOSVersionsRule</key>
-						<string>11</string>
+						<string>default</string>
 					</dict>
 				</array>
 				<key>userExperience</key>
@@ -94,6 +70,8 @@
 				</dict>
 				<key>userInterface</key>
 				<dict>
+					<key>actionButtonPath</key>
+					<string>/System/Library/PreferencePanes/Softwareupdate.prefpane</string>
 					<key>iconDarkPath</key>
 					<string>/Library/CompanyName/logoDark.png</string>
 					<key>iconLightPath</key>
