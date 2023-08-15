@@ -26,13 +26,13 @@
 				<key>PayloadType</key>
 				<string>com.github.macadmins.Nudge</string>
 				<key>PayloadDisplayName</key>
-				<string>Nudge (v4)</string>
+				<string>Nudge (v5)</string>
 				<key>PayloadIdentifier</key>
 				<string>com.example.profile.Nudge</string>
 				<key>PayloadUUID</key>
 				<string>E8DAEAB6-E898-4120-ACA0-AC237D144FA8</string>
 				<key>PayloadVersion</key>
-				<integer>4</integer>
+				<integer>5</integer>
 				<key>optionalFeatures</key>
 				<dict>
 					<key>acceptableApplicationBundleIDs</key>
@@ -50,11 +50,13 @@
 				<array>
 					<dict>
 						<key>aboutUpdateURL</key>
-						<string>https://support.apple.com/en-us/HT213633</string>
+						<string>https://support.apple.com/en-us/HT213843</string>
+						<key>majorUpgradeAppPath</key>
+						<string>/System/Library/CoreServices/Software Update.app</string>
 						<key>requiredInstallationDate</key>
-						<date>2023-02-20T19:00:44Z</date>
+						<string>2023-08-24T12:00:44</string>
 						<key>requiredMinimumOSVersion</key>
-						<string>13.2.1</string>
+						<string>13.5</string>
 						<key>targetedOSVersionsRule</key>
 						<string>default</string>
 					</dict>
@@ -71,7 +73,7 @@
 				<key>userInterface</key>
 				<dict>
 					<key>actionButtonPath</key>
-					<string>/System/Library/PreferencePanes/Softwareupdate.prefpane</string>
+					<string>/System/Library/CoreServices/Software Update.app</string>
 					<key>iconDarkPath</key>
 					<string>/Library/CompanyName/logoDark.png</string>
 					<key>iconLightPath</key>
