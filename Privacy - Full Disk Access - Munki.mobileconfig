@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>Privacy - Full Disk Access - Munki</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.Privacy.AllFiles.Munki</string>
+	<key>PayloadUUID</key>
+	<string>0744F4F8-5D7E-4A28-9D2D-19074AC9DBE3</string>
+	<key>PayloadDescription</key>
+	<string>Allows Munki to access to all protected files, including system administration files.</string>
+	<key>PayloadOrganization</key>
+	<string>Example, Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadDisplayName</key>
+			<string>Privacy - Full Disk Access - Munki (v1)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.example.Privacy.AllFiles.Munki</string>
+			<key>PayloadUUID</key>
+			<string>17FCB39B-6965-42D8-BFF7-0CF057A10360</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier munkishim and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = T4SK8ZXCXG</string>
+						<key>Identifier</key>
+						<string>/usr/local/munki/managedsoftwareupdate</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
