@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>Setup Assistant</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profile.SetupAssistant</string>
+	<key>PayloadUUID</key>
+	<string>481E34F8-7BB7-4718-962F-EDD4FDDF0B91</string>
+	<key>PayloadDescription</key>
+	<string>Setup Assistant SkipKeys.</string>
+	<key>PayloadOrganization</key>
+	<string>Example, Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.SetupAssistant.managed</string>
+			<key>PayloadDisplayName</key>
+			<string>Setup Assistant (v1)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.example.profile.SetupAssistant</string>
+			<key>PayloadUUID</key>
+			<string>DBC66AA4-ADB9-4272-B9D4-8B3ED51C79F2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SkipSetupItems</key>
+			<array>
+				<string>Intelligence</string>
+				<string>Welcome</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
